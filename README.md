@@ -107,17 +107,3 @@ SUSTAINIFY/
 └── README.md        # Project documentation
 ```
 
----
-
-## 🤝 Contributing
-Contributions are welcome! Follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch for your feature/bug fix.
-3. Commit your changes and push to your fork.
-4. Submit a pull request.
-
-
----
-
-## 🌟 Acknowledgements
-A big thank you to everyone who contributed to the project and provided feedback!
