@@ -61,7 +61,7 @@ Follow these steps to set up and run the project locally:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AshishKapishwey/sustainify.git
+   git clone https://github.com/wolAnsh/Sustainify
    cd sustainify
    ```
 
