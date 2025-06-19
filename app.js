@@ -126,7 +126,7 @@ app.get("/otp", (req, res) => {
 
 
 // Admin Details
-const ADMIN_EMAIL = "aakapishwey111@gmail.com";
+const ADMIN_EMAIL = "admin@gmail.com";
 const ADMIN_PASSWORD = "Admin@123";
 const nameAd="Admin";
 
@@ -237,7 +237,7 @@ app.post("/Signup", (req, res) => {
     console.log(`OTP for signup: ${otp}`);
 
     var mailOptions = {
-      from: "anshuyadav202301jan@gmail.com",
+      from: "test@gmail.com",
       to: email,
       subject: "Confirmation code",
       text: `Your signup code is ${otp}`,
@@ -272,7 +272,7 @@ app.post("/LoginPage", async (req, res) => {
       console.log(`OTP for password reset: ${otp}`);
 
       var mailOptions = {
-        from: "anshuyadav202301jan@gmail.com",
+        from: "test@gmail.com",
         to: forgetemail,
         subject: "Verification code",
         text: `Your forget password code is ${otp}`,
@@ -371,7 +371,7 @@ app.post("/PickUpSignup", function (req, res) {
       console.log(pickupcode + " is the OTP");
   
       var mailOptions = {
-        from: "anshuyadav202301jan@gmail.com",
+        from: "test@gmail.com",
         to: pickupemail,
         subject: "Confirmation code",
         text: "Your Sign-up code is " + pickupcode,
@@ -459,7 +459,7 @@ app.post("/PickUpLogin", async function (req, res) {
             console.log(pickupcode + " is the OTP");
 
             var mailOptions = {
-                from: "anshuyadav202301jan@gmail.com",
+                from: "test@gmail.com",
                 to: forgetemail,
                 subject: "Verification code",
                 text: "Your Forget Password code is " + pickupcode,
